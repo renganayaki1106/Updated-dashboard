@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="sticky-top sticky-header">
+        <header class="header">
+            <div class="header_left">
+                <div class="logo">Logo</div>
+            </div>
+            <div class="header_right">
+                <div class="user">
+                    <i class="fas fa-user-alt"></i>
+                </div>
+                <div class="bell">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="user-circle">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+              <div class="dropdown show">
+                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <div class="login dropdown-item">
+                        <i class="fas fa-sign-in-alt"></i><span>Login</span>
+                    </div>
+                  <div class="logout dropdown-item">
+                   <i class="fas fa-sign-out-alt"></i><span>Logout</span>
+                  </div>
+                </div>
+            </div>
+            </div>
+    </div>
+
+
+    <div class="left-sidebar">
+        <!-- Sidebar -->
+
+        <div class="sidebar">
+            <ul>
+                <li data-li="heading"> <a href="./index.html"><i class="fas fa-desktop"></i><span class="nav-text">Dashboard</span></a></li>
+                <li data-li="user"> <a href="./user.html"><i class="fa fa-user" aria-hidden="true"></i><span class="nav-text">User</span></a></li>  
+                <li data-li="component">  <a href="./compoents.html"><i class="fas fa-cogs"></i><span class="nav-text">Components</span></a></li>
+                <li data-li="tables">  <a href="./tables.html"><i class="fas fa-table"></i><span class="nav-text">Tables</span></a></li>
+                <li data-li="form"><a href="./form.html"><i class="fas fa-th"></i><span class="nav-text">Forms</span></a></li>
+                <li data-li="about"> <a href="./about.html"><i class="fas fa-info-circle"></i><span class="nav-text">About</span></a></li>
+                <li data-li="settings"> <a href="./settings.html"><i class="fas fa-sliders-h"></i><span class="nav-text">Settings</span></a></li>  
+            </ul>
+            
+                <a href="#" class="right"><span class="arrow"><i class="fas fa-greater-than control"></i></span></a>
+            
+        </div>
+    </div>
+    <div class="container-fluid content-area">
+        <!-- Content -->
+        <div class="content">
+            <div class="item heading">
+               <h1>Dashboard</h1>
+            </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
